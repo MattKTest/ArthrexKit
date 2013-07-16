@@ -10,4 +10,15 @@
 
 @implementation Authenticator
 
+- (void)authenticateUser:(NSString *)user
+{
+    if ([user isEqualToString:@"TEST"]) {
+        [self.authenticatorDelegate AuthenticationDidSucceed];
+    }
+    else {
+        [self.authenticatorDelegate AuthenticationDidFailWithError:
+                [[NSError alloc] initWithDomain:@"ArthrexAuthenticator" code:3 userInfo:nil]];
+    }
+}
+
 @end

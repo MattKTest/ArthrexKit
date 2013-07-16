@@ -24,6 +24,8 @@
 		C68BC38D1795A8F500DCD9D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BC3651795A8F500DCD9D0 /* Foundation.framework */; };
 		C68BC3951795A8F500DCD9D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68BC3931795A8F500DCD9D0 /* InfoPlist.strings */; };
 		C68BC3981795A8F500DCD9D0 /* ArthrexKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BC3971795A8F500DCD9D0 /* ArthrexKitTests.m */; };
+		C68BC3A51795AB8200DCD9D0 /* Authenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BC3A41795AB8200DCD9D0 /* Authenticator.m */; };
+		C68BC3A61795AB8200DCD9D0 /* Authenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = C68BC3A41795AB8200DCD9D0 /* Authenticator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		C68BC3941795A8F500DCD9D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C68BC3961795A8F500DCD9D0 /* ArthrexKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArthrexKitTests.h; sourceTree = "<group>"; };
 		C68BC3971795A8F500DCD9D0 /* ArthrexKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArthrexKitTests.m; sourceTree = "<group>"; };
+		C68BC3A31795AB8200DCD9D0 /* Authenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authenticator.h; sourceTree = "<group>"; };
+		C68BC3A41795AB8200DCD9D0 /* Authenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authenticator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				C68BC3691795A8F500DCD9D0 /* ArthrexKit */,
 				C68BC3901795A8F500DCD9D0 /* ArthrexKitTests */,
 				C68BC3621795A8F500DCD9D0 /* Frameworks */,
+				C68BC3A11795AAFD00DCD9D0 /* LibraryFiles */,
 				C68BC3611795A8F500DCD9D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,6 +166,15 @@
 				C68BC3931795A8F500DCD9D0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C68BC3A11795AAFD00DCD9D0 /* LibraryFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C68BC3A31795AB8200DCD9D0 /* Authenticator.h */,
+				C68BC3A41795AB8200DCD9D0 /* Authenticator.m */,
+			);
+			path = LibraryFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +291,7 @@
 				C68BC3701795A8F500DCD9D0 /* main.m in Sources */,
 				C68BC3741795A8F500DCD9D0 /* AppDelegate.m in Sources */,
 				C68BC3831795A8F500DCD9D0 /* ViewController.m in Sources */,
+				C68BC3A51795AB8200DCD9D0 /* Authenticator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68BC3981795A8F500DCD9D0 /* ArthrexKitTests.m in Sources */,
+				C68BC3A61795AB8200DCD9D0 /* Authenticator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
